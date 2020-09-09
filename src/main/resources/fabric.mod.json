@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "visibleenchantments",
+    "version": "${version}",
+
+    "name": "visiblee nchantments",
+    "description": "a modification that reveals hidden enchantments in the enchantment table screen",
+    "authors": [
+        "user11681"
+    ],
+    "contact": {
+        "repo": "https://github.com/user11681/visibleenchantments"
+    },
+
+    "license": "MIT",
+    "icon": "assets/visibleenchantments/icon.png",
+
+    "environment": "*",
+    "entrypoints": {},
+
+    "mixins": [
+        "visibleenchantments.mixins.json"
+    ],
+
+    "depends": {
+        "fabricloader": ">=0.9.3+build.207",
+        "minecraft": "1.16.2"
+    }
+}
